@@ -142,6 +142,30 @@ export const LED_DEMONSTRATIONS: LabVideoItem[] = [
     thumbnailSrc: '/assets/thumbnails/demo05.jpg',
     orientation: 'portrait',
   },
+  {
+    id: 'demo-06',
+    label: 'Demonstration 06',
+    caption:
+      'Rotary potentiometer wired directly to the Arduino UNO controlling a red LED brightness level in real time.',
+    observedDetail: 'Potentiometer + Red LED · Arduino UNO · Analog-to-PWM control',
+    duration: '0:05',
+    mutedSrc: '/assets/muted/WhatsApp_Video_2026-11-20_at_4.55.01_PM_79aa0588_muted.mp4',
+    originalSrc: '/assets/aistudio/WhatsApp_Video_2026-11-20_at_4.55.01_PM_79aa0588.mp4',
+    thumbnailSrc: '/assets/thumbnails/demo06.jpg',
+    orientation: 'portrait',
+  },
+  {
+    id: 'demo-07',
+    label: 'Demonstration 07',
+    caption:
+      'Arduino IDE sketch_oct9a.ino calculating ultrasonic distance and toggling the LED pin when readings cross the threshold on COM6.',
+    observedDetail: 'sketch_oct9a.ino · Distance & threshold LED control · Serial Monitor',
+    duration: '0:06',
+    mutedSrc: '/assets/muted/WhatsApp_Video_2026-11-20_at_4.57.53_PM_07feace8_muted.mp4',
+    originalSrc: '/assets/aistudio/WhatsApp_Video_2026-11-20_at_4.57.53_PM_07feace8.mp4',
+    thumbnailSrc: '/assets/thumbnails/demo07.jpg',
+    orientation: 'landscape',
+  },
 ];
 
 export const POTENTIOMETER_SKETCH = `// Read analog value from a potentiometer on pin A2

@@ -220,7 +220,7 @@ export default function App() {
               </p>
             </div>
             <div className="border-slate-100 md:border-r md:pr-4">
-              <p className="font-mono text-2xl font-bold text-slate-900 tabular-nums">05</p>
+              <p className="font-mono text-2xl font-bold text-slate-900 tabular-nums">07</p>
               <p className="mt-1 text-xs font-medium text-slate-500">
                 Silent Demonstration Videos
               </p>

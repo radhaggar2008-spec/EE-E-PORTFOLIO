@@ -17,7 +17,7 @@ export function VideoGallerySection({ onOpenVideo }: VideoGallerySectionProps) {
             Practical Hardware Evidence
           </p>
           <h3 className="text-2xl font-semibold tracking-tight text-slate-900">
-            Five Recorded LED Interfacing Demonstrations
+            Recorded Laboratory Demonstrations
           </h3>
         </div>
         <p className="text-xs text-slate-500">
@@ -26,9 +26,10 @@ export function VideoGallerySection({ onOpenVideo }: VideoGallerySectionProps) {
       </div>
 
       <p className="max-w-3xl text-sm leading-relaxed text-slate-600">
-        Each recording below documents a distinct laboratory run of the Arduino UNO LED-interfacing
-        activity. Background noise has been stripped from every video while keeping the original
-        circuit wiring, blinking patterns, and IDE code unobstructed.
+        Each recording below documents a distinct laboratory run from the Arduino UNO hardware
+        activities—covering digital LED patterns, potentiometer-driven LED control, and sensor
+        threshold switching. Background noise has been stripped from every video while keeping the
+        original circuit wiring, blinking patterns, and IDE code unobstructed.
       </p>
 
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
